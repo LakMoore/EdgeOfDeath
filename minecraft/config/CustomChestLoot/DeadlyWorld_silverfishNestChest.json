@@ -1,0 +1,105 @@
+{
+  "_name": "DeadlyWorld.silverfishNestChest",
+  "min": 1,
+  "max": 6,
+  "loot": [
+    {
+      "weight": 10,
+      "id": "minecraft:torch",
+      "damage": 0,
+      "min": 4,
+      "max": 12
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:wheat_seeds",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:pumpkin_seeds",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:melon_seeds",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:dye",
+      "damage": 3,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:gold_nugget",
+      "damage": 0,
+      "min": 4,
+      "max": 9
+    },
+    {
+      "weight": 15,
+      "id": "minecraft:bone",
+      "damage": 0,
+      "min": 4,
+      "max": 6
+    },
+    {
+      "weight": 20,
+      "id": "minecraft:dye",
+      "damage": 15,
+      "min": 8,
+      "max": 14
+    },
+    {
+      "weight": 20,
+      "id": "minecraft:rotten_flesh",
+      "damage": 0,
+      "min": 3,
+      "max": 7
+    },
+    {
+      "weight": 10,
+      "id": "minecraft:string",
+      "damage": 0,
+      "min": 4,
+      "max": 6
+    },
+    {
+      "weight": 10,
+      "id": "minecraft:gunpowder",
+      "damage": 0,
+      "min": 4,
+      "max": 6
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:slime_ball",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:bucket",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    }
+  ]
+}
