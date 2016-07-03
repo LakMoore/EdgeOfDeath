@@ -89,6 +89,7 @@ key_key.binder:40
 key_key.adventurersamulets.descBelt:34
 key_key.adventurersamulets.descPendant:35
 key_key.personalBackpack:48
+key_keys.baubleshud.config:73
 key_key.openCompendium:25
 key_ingameinfoxml.key.toggle:0
 key_Mount Ability:33
