@@ -2,6 +2,7 @@ saves/
 asm/
 logs/
 natives/
+crash-reports/
 minecraft/config/INpureProjects/logs/
 minecraft/usernamecache.json
 
@@ -11,3 +12,5 @@ minecraft/Reika.DragonAPI.ModInteract.DeepInteract.FrameBlacklist.classdata
 
 minecraft/1213309934
 
+
+*.log
