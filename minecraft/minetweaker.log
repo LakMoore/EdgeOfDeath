@@ -1,3 +1,19 @@
 ERROR: system: AutoSpawner is already defined in that package
 INFO: MineTweaker: Building registry
 INFO: MineTweaker: Sucessfully built item registry
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command tooltips
+INFO: Adding minetweaker command entities
+INFO: Adding minetweaker command appeng
+INFO: Adding minetweaker command materials
+INFO: Adding minetweaker command modifiers
+INFO: Adding minetweaker command tconstruct
+INFO: Adding minetweaker command thermalexpansion
+INFO: Adding minetweaker command mfr
+INFO: Adding minetweaker command tooltips
+INFO: Adding minetweaker command entities
+INFO: Adding minetweaker command appeng
+INFO: Adding minetweaker command materials
+INFO: Adding minetweaker command modifiers
+INFO: Adding minetweaker command tconstruct
+INFO: Adding minetweaker command thermalexpansion
