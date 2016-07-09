@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:true
 maxFps:30
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 clouds:true
@@ -70,7 +70,7 @@ key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
-key_key.sprint:29
+key_key.sprint:56
 key_key.streamStartStop:64
 key_key.streamPauseUnpause:65
 key_key.streamCommercial:0
@@ -88,7 +88,7 @@ key_key.hotbar.9:10
 key_key.binder:40
 key_key.adventurersamulets.descBelt:34
 key_key.adventurersamulets.descPendant:35
-key_key.personalBackpack:48
+key_key.personalBackpack:44
 key_keys.baubleshud.config:73
 key_key.openCompendium:25
 key_ingameinfoxml.key.toggle:0
@@ -112,7 +112,7 @@ key_waila.keybind.usage:75
 key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
-key_key.tzoom:44
+key_key.tzoom:29
 key_key.portaitreposition:52
 key_Dynamic Lights toggle:38
 key_Reload Configs:37
@@ -131,7 +131,7 @@ key_key.mw_underground_mode:22
 key_key.erebus.glide:34
 key_key.erebus.poweredGlide:33
 key_key.erebus.beetleRam:19
-key_key.erebus.beetleMine:56
+key_key.erebus.beetleMine:46
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_key.control:29
