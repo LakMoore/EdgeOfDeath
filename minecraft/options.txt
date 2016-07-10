@@ -119,7 +119,7 @@ key_Reload Configs:37
 key_Add Custom Config:36
 key_Enviromine Menu:50
 key_key.categories.naming:49
-key_invtweaks.key.sort:19
+key_invtweaks.key.sort:39
 key_key.mw_open_gui:50
 key_key.mw_new_marker:210
 key_key.mw_next_map_mode:49
