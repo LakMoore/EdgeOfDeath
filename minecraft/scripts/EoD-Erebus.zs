@@ -7,3 +7,6 @@ recipes.addShaped(<erebus:extenderThingy>, [[<erebus:materials:3>, <minecraft:st
 #button
 recipes.remove(<erebus:umberstoneButton>);
 recipes.addShapeless(<erebus:umberstoneButton> * 4, [<erebus:umberstone:1>, redstone]);
+
+#remove the recipe to turn red gems into redstone
+recipes.removeShapeless(<minecraft:redstone>);
