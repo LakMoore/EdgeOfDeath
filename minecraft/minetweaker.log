@@ -1383,6 +1383,29 @@ INFO: Adding recipe for Pressure Plate
 INFO: Adding recipe for Pressure Plate
 INFO: Adding recipe for Weighted Pressure Plate (Light)
 INFO: Adding recipe for Weighted Pressure Plate (Heavy)
+INFO: Adding Adamantium Ore to ore dictionary entry oreZuulite
+INFO: Adding Adamantium Block to ore dictionary entry blockZuulite
+INFO: Adding Adamantium Ingot to ore dictionary entry ingotZuulite
+INFO: Translating tile.block_adamantium_ore.name to Zuulite Ore
+INFO: Translating tile.block_adamantium_block.name to Block of Zuulite
+INFO: Translating item.item_adamantium_ingot.name to Zuulite Ingot
+INFO: Translating item.item_adamantium_helmet.name to Zuulite Helmet
+INFO: Translating item.item_adamantium_chestplate.name to Zuulite Chestplate
+INFO: Translating item.item_adamantium_leggings.name to Zuulite Leggings
+INFO: Translating item.item_adamantium_boots.name to Zuulite Boots
+INFO: Translating item.infinitic.bucket.zuulite.name to Bucket of Zuulite
+INFO: Removing 1 recipes
+INFO: Hiding item.item_adamantium_sword in NEI
+INFO: Removing 1 recipes
+INFO: Hiding item.item_adamantium_pickaxe in NEI
+INFO: Removing 1 recipes
+INFO: Hiding item.item_adamantium_shovel in NEI
+INFO: Removing 1 recipes
+INFO: Hiding item.item_adamantium_axe in NEI
+INFO: Removing 1 recipes
+INFO: Hiding item.item_adamantium_hoe in NEI
+INFO: Removing 0 recipes
+INFO: Hiding item.item_machete_adamantium in NEI
 INFO: Adding minetweaker command tooltips
 INFO: Adding minetweaker command entities
 INFO: Adding minetweaker command appeng
