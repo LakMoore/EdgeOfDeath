@@ -1,19 +1,3 @@
-import mods.nei.NEI;
-import minetweaker.item.IItemStack;
-
-var picks = [
-	<Natura:natura.pickaxe.ghostwood>, <Natura:natura.axe.ghostwood>, <Natura:natura.shovel.ghostwood>, <Natura:natura.sword.ghostwood>, 
-	<Natura:natura.pickaxe.bloodwood>, <Natura:natura.axe.bloodwood>, <Natura:natura.shovel.bloodwood>, <Natura:natura.sword.bloodwood>, 
-	<Natura:natura.pickaxe.darkwood>, <Natura:natura.axe.darkwood>, <Natura:natura.shovel.darkwood>, <Natura:natura.sword.darkwood>, 
-	<Natura:natura.pickaxe.fusewood>, <Natura:natura.axe.fusewood>, <Natura:natura.shovel.fusewood>, <Natura:natura.sword.fusewood>,
-	<Natura:natura.pickaxe.netherquartz>, <Natura:natura.axe.netherquartz>, <Natura:natura.shovel.netherquartz>, <Natura:natura.sword.netherquartz>
-] as IItemStack[];
-
-for pick in picks {
-	recipes.remove(pick);
-	NEI.hide(pick);
-}
-
 val redstone = <ore:ingotRedAlloy>;
 
 #Natura Pressure Plates

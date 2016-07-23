@@ -1,17 +1,3 @@
-import mods.nei.NEI;
-import minetweaker.item.IItemStack;
-
-#remove tools - even though they are nerfed axes still have an attack value!
-var picks = [
-	<BiomesOPlenty:pickaxeMud>, <BiomesOPlenty:axeMud>, <BiomesOPlenty:shovelMud>, <BiomesOPlenty:swordMud>, <BiomesOPlenty:hoeMud>, <BiomesOPlenty:scytheMud>, 
-	<BiomesOPlenty:pickaxeAmethyst>, <BiomesOPlenty:axeAmethyst>, <BiomesOPlenty:shovelAmethyst>, <BiomesOPlenty:swordAmethyst>, <BiomesOPlenty:hoeAmethyst>, <BiomesOPlenty:scytheAmethyst>
-] as IItemStack[];
-
-for pick in picks {
-	recipes.remove(pick);
-	NEI.hide(pick);
-}
-
 val redstone = <ore:ingotRedAlloy>;
 
 #Honey
