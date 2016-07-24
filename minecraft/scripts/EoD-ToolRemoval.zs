@@ -64,7 +64,8 @@ var tools = [
 		<Natura:natura.pickaxe.bloodwood>, <Natura:natura.axe.bloodwood>, <Natura:natura.shovel.bloodwood>, <Natura:natura.sword.bloodwood>, 
 		<Natura:natura.pickaxe.darkwood>, <Natura:natura.axe.darkwood>, <Natura:natura.shovel.darkwood>, <Natura:natura.sword.darkwood>, 
 		<Natura:natura.pickaxe.fusewood>, <Natura:natura.axe.fusewood>, <Natura:natura.shovel.fusewood>, <Natura:natura.sword.fusewood>,
-		<Natura:natura.pickaxe.netherquartz>, <Natura:natura.axe.netherquartz>, <Natura:natura.shovel.netherquartz>, <Natura:natura.sword.netherquartz>
+		<Natura:natura.pickaxe.netherquartz>, <Natura:natura.axe.netherquartz>, <Natura:natura.shovel.netherquartz>, <Natura:natura.sword.netherquartz>,
+		<imc:item_adamantium_sword>, <imc:item_adamantium_pickaxe>, <imc:item_adamantium_shovel>, <imc:item_adamantium_axe>, <imc:item_adamantium_hoe>, <imc:item_machete_adamantium>
 ] as IItemStack[];
 
 #remove tools - even though they are nerfed axes still have an attack value!

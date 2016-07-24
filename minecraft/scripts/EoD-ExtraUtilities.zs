@@ -68,5 +68,79 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [[null, <minecraft:buck
 recipes.addShaped(<ExtraUtilities:pipes:13>, [[redstone], [<ExtraUtilities:pipes:8>], [redstone]]);
 recipes.addShapeless(<ExtraUtilities:trashcan:2>, [<ExtraUtilities:trashcan>, redstone, <ore:ingotGold>, redstone, <ore:ingotGold>]);
 
+/*
+#Change enderthermic pump to require vulcanite.
+recipes.remove(<2520>);
+recipes.addShaped(<2520>, [[<2523:1>,oreDict.ingotVulcanite,<2523:1>],[oreDict.ingotVulcanite,<20278:2048>,oreDict.ingotVulcanite],[<2523:1>,oreDict.ingotVulcanite,<2523:1>]]);
 
+#Change survivalist generator to require copper, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:0>);
+recipes.addShaped(<2529:0>, [[oreDict.ingotCopper,oreDict.ingotCopper,oreDict.ingotCopper],[oreDict.ingotCopper,<20263:64>,oreDict.ingotCopper],[<9005:10>,<925:3>,<9005:10>]]);
+
+#Change furnace generator to require steel, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:1>);
+#recipes.addShaped(<2529:1>, [[oreDict.ingotSteel,oreDict.ingotSteel,oreDict.ingotSteel],[oreDict.ingotSteel,<20263:64>,oreDict.ingotSteel],[<9005:10>,<925:3>,<9005:10>]]);
+
+#Change lava generator to require vulcanite, inolashite, leadstone frame, sanguinite smelter, and red alloy.
+recipes.remove(<2529:2>);
+recipes.addShaped(<2529:2>, [[oreDict.ingotVulcanite,oreDict.ingotVulcanite,oreDict.ingotVulcanite],[oreDict.ingotInolashite,<20263:64>,oreDict.ingotInolashite],[<9005:10>,<931:7>,<9005:10>]]);
+
+#Change ender generator to require enderium, desichalkos, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:3>);
+recipes.addShaped(<2529:3>, [[oreDict.ingotEnderium,oreDict.ingotEnderium,oreDict.ingotEnderium],[oreDict.ingotDesichalkos,<20263:64>,oreDict.ingotDesichalkos],[<9005:10>,<925:3>,<9005:10>]]);
+
+#Change redstone generator to require vulcanite, haderoth, leadstone frame, sanguinite smelter, and red alloy.
+recipes.remove(<2529:4>);
+recipes.addShaped(<2529:4>, [[oreDict.ingotVulcanite,oreDict.ingotVulcanite,oreDict.ingotVulcanite],[oreDict.ingotHaderoth,<20263:64>,oreDict.ingotHaderoth],[<9005:10>,<931:7>,<9005:10>]]);
+
+#Change culinary generator to require brass, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:5>);
+recipes.addShaped(<2529:5>, [[oreDict.ingotBrass,oreDict.ingotBrass,oreDict.ingotBrass],[oreDict.ingotBrass,<20263:64>,oreDict.ingotBrass],[<9005:10>,<925:3>,<9005:10>]]);
+
+#Change potions generator to require brass, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:6>);
+recipes.addShaped(<2529:6>, [[oreDict.ingotCarmot,oreDict.ingotCarmot,oreDict.ingotCarmot],[oreDict.ingotCarmot,<20263:64>,oreDict.ingotCarmot],[<9005:10>,<925:3>,<9005:10>]]);
+
+#Change solar generator to require astral silver, Desichalkos ingot, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:7>);
+recipes.addShaped(<2529:7>, [[<26394>,<151>,<26394>],[oreDict.ingotDesichalkos,<20263:64>,oreDict.ingotDesichalkos],[<9005:10>,<925:3>,<9005:10>]]);
+
+#Change TNT generator to require bronze, leadstone frame, steel furnace, and red alloy.
+recipes.remove(<2529:8>);
+recipes.addShaped(<2529:8>, [[oreDict.ingotBronze,oreDict.ingotBronze,oreDict.ingotBronze],[oreDict.ingotBronze,<20263:64>,oreDict.ingotBronze],[<9005:10>,<925:3>,<9005:10>]]);
+
+#change high temp furnace generator to require red alloy, leadstone frame, and sanguinite smelter.
+recipes.remove(<2529:10>);
+recipes.addShaped(<2529:10>, [[oreDict.ingotSanguinite,oreDict.ingotSanguinite,oreDict.ingotSanguinite],[oreDict.ingotSanguinite,<20263:64>,oreDict.ingotSanguinite],[<9005:10>,<931:7>,<9005:10>]]);
+
+#Change nether star generator to require desichalkos, tartarite, leadstone frame, sanguinite smelter, and red alloy.
+recipes.remove(<2529:11>);
+recipes.addShaped(<2529:11>, [[oreDict.ingotDesichalkos,<399>,oreDict.ingotDesichalkos],[oreDict.ingotTartarite,<20263:64>,oreDict.ingotTartarite],[<9005:10>,<931:7>,<9005:10>]]);
+
+#Remove pink generator.
+recipes.remove(<2529:9>);
+
+#Change ender obsidian to require enderium and obsidian ingots.
+recipes.remove(<2523:1>);
+recipes.addShaped(<2523:1>, [[oreDict.ingotEnderium,oreDict.ingotObsidian,oreDict.ingotEnderium],[oreDict.ingotObsidian,oreDict.ingotObsidian,oreDict.ingotObsidian],[oreDict.ingotEnderium,oreDict.ingotObsidian,oreDict.ingotEnderium]]);
+
+#Change deep dark portal to require Essences of Darkness and a block of Emerald.
+recipes.remove(<2526>);
+recipes.addShaped(<2526>, [[oreDict.compressedCobblestone4x,<4362:13>,oreDict.compressedCobblestone4x],[<4362:13>,oreDict.blockEmerald,<4362:13>],[oreDict.compressedCobblestone4x,<4362:13>,oreDict.compressedCobblestone4x]]);
+
+#Change drum to require Desichalkos ingots.
+recipes.remove(<2527>);
+recipes.addShaped(<2527>, [[null,oreDict.ingotDesichalkos,null],[oreDict.ingotDesichalkos,<2006:4>,oreDict.ingotDesichalkos],[null,oreDict.ingotDesichalkos,null]]);
+
+#Remove glowstone glass
+recipes.remove(<4082:7>);
+
+#Change watering can to require iron, magic fertalizer, and water sigil
+recipes.remove(<10269>);
+recipes.addShaped(<10269>, [[oreDict.ingotIron,<8518>,null],[oreDict.ingotIron,<17260>,oreDict.ingotIron],[null,oreDict.ingotIron,null]]);
+
+#change ender core to require a fluix pearl
+recipes.remove(<2523:11>);
+recipes.addShaped(<2523:11>, [[<2523:8>,oreDict.enderobsidian,<2523:8>],[oreDict.enderobsidian,<4362:24>,oreDict.enderobsidian,],[<2523:8>,oreDict.enderobsidian,<2523:8>]]);
+*/
 

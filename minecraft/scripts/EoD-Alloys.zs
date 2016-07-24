@@ -1,3 +1,6 @@
+#Nether Adamantium => Adamantine
+furnace.addRecipe(<Metallurgy:fantasy.ore:13> * 2, <NetherOres:tile.netherores.ore.1:8>);
+
 #change recipes for alloys - fluids and dusts
 
 #4Bronze = 1Tin + 3Copper
@@ -90,7 +93,11 @@ recipes.addShapeless(<Metallurgy:precious.dust:3> * 4, [<ore:dustCopper>,<ore:du
 mods.tconstruct.Smeltery.removeAlloy(<liquid:brass.molten>);
 mods.tconstruct.Smeltery.addAlloy(<liquid:brass.molten> * 64, [<liquid:copper.molten> * 48, <liquid:zinc.molten> * 32]);
 
-#2Electrum = 1Gold + 1Silver
+#2Electrum = 2Gold + 2Silver
+recipes.removeShapeless(<Metallurgy:precious.dust:4>);
+recipes.addShapeless(<Metallurgy:precious.dust:4> * 2, [<ore:dustGold>,<ore:dustGold>,<ore:dustSilver>,<ore:dustSilver>]);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:electrum.molten>);
+mods.tconstruct.Smeltery.addAlloy(<liquid:electrum.molten> * 32, [<liquid:gold.molten> * 32, <liquid:silver.molten> * 32]);
 
 #4Aluminum Brass = 3Aluminum + 2Brass
 recipes.removeShapeless(<TConstruct:materials:42>);

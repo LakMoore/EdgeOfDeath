@@ -15,18 +15,4 @@ import minetweaker.item.IItemStack;
 
 <infinitic:bucket_zuulite>.displayName = "Bucket of Zuulite";
 
-var tools = [
-	<imc:item_adamantium_sword>,
-	<imc:item_adamantium_pickaxe>,
-	<imc:item_adamantium_shovel>,
-	<imc:item_adamantium_axe>,
-	<imc:item_adamantium_hoe>,
-	<imc:item_machete_adamantium>
-] as IItemStack[];
-
-for tool in tools {
-	recipes.remove(tool);
-	NEI.hide(tool);
-}
-
 

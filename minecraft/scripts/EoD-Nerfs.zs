@@ -93,6 +93,5 @@ recipes.addShaped(<Natura:planks:10>*4,[[<ore:materialSaw>,<Natura:willow>]]);  
 recipes.addShaped(<Natura:planks:11>*4,[[<ore:materialSaw>,<Natura:Dark Tree>]]);   #Dark Wood
 recipes.addShaped(<Natura:planks:12>*4,[[<ore:materialSaw>,<Natura:Dark Tree:1>]]); #Fusewood
 
-#Disable all simple axes
 
 

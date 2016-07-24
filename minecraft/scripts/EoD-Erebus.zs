@@ -10,3 +10,6 @@ recipes.addShapeless(<erebus:umberstoneButton> * 4, [<erebus:umberstone:1>, reds
 
 #remove the recipe to turn red gems into redstone
 recipes.removeShapeless(<minecraft:redstone>);
+
+#Jade Pickaxe to Jade Mining Level
+mods.tconstruct.ToolStats.setHarvestLevel("Jade", 8);
