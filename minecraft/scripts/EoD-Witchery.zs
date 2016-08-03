@@ -37,4 +37,21 @@ recipes.addShaped(<witchery:shadedglass:15>, [[<minecraft:stained_glass:15>, <mi
 
 #Ice Pressure plate
 recipes.remove(<witchery:snowpressureplate>);
-recipes.addShaped(<witchery:snowpressureplate> * 2, [[<ore:blockSnow>, <ore:blockSnow>], [redstone, redstone]]);
+recipes.addShaped(<witchery:snowpressureplate> * 2, [
+	[<ore:blockSnow>, <ore:blockSnow>], [redstone, redstone]
+]);
+
+#Anointing Paste was too easy
+recipes.remove(<witchery:ingredient:153>);
+recipes.addShapeless(<witchery:ingredient:153>, [
+	<ore:toolMortarandpestle>, <witchery:seedssnowbell>, <witchery:seedsartichoke>, 
+	<BiomesOPlenty:saplings:3>, <witchery:seedsmandrake>, <witchery:seedsbelladonna>, 
+	<witchery:ingredient:32>, <ore:listAllwater>
+]);
+
+#Right clicking grown wheat harvests it - here is the fix
+recipes.addShaped(<witchery:seedswormwood>, [
+	[null, <witchery:mutator>.anyDamage().transformDamage(0), null], 
+	[<witchery:somniancotton>, <minecraft:wheat_seeds>, <witchery:somniancotton>], 
+	[<ore:listAllwater>, <witchery:somniancotton>, <ore:listAllwater>]
+]);

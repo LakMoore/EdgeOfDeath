@@ -5,7 +5,11 @@ var i = <ExtraTiC:funStuffIngot:2>;
 var b = <ExtraTiC:blockFunStuff:2>;
 var l = <liquid:red.aurum.molten>;
 
-recipes.addShaped(b, [[i, i, i], [i, i, i], [i, i, i]]);
+recipes.addShaped(b, [
+    [i, i, i], 
+    [i, i, i], 
+    [i, i, i]
+]);
 recipes.addShapeless(i * 9, [b]);
 
 #4RedAurum = 3ConductiveRed + 2Gold

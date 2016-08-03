@@ -91,7 +91,6 @@ key_key.adventurersamulets.descPendant:35
 key_key.personalBackpack:44
 key_keys.baubleshud.config:73
 key_key.openCompendium:25
-key_ingameinfoxml.key.toggle:0
 key_Mount Ability:33
 key_Mount Inventory:0
 key_Lycanites Mobs Main Menu:34
@@ -113,7 +112,6 @@ key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:29
-key_key.portaitreposition:52
 key_Dynamic Lights toggle:38
 key_Reload Configs:37
 key_Add Custom Config:36
@@ -138,7 +136,7 @@ key_key.control:29
 key_enchiridion.key.wiki:35
 key_BetterFps:88
 soundCategory_master:1.0
-soundCategory_music:0.7183099
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
