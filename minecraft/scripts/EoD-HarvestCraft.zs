@@ -61,3 +61,10 @@ recipes.addShapeless(<harvestcraft:stockItem> * 2,
 
 #remove grilled mushroom skillet recipes
 recipes.removeShapeless(<harvestcraft:grilledmushroomItem>);
+
+#re-do juicer
+recipes.remove(<harvestcraft:juicerItem>);
+recipes.addShaped(<harvestcraft:juicerItem>, [
+	[null, <minecraft:flint>, null],
+	[<ore:stone>, <ore:stone>, <ore:stone>]
+]);

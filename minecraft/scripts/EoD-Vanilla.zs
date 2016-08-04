@@ -1,6 +1,10 @@
+import mods.nei.NEI;
+
 val redstone = <ore:ingotRedAlloy>;
 
 #Remove Cake!
+recipes.remove(<minecraft:cake>);
+NEI.hide(<minecraft:cake>);
 
 #Change ender chest to require bucket of flowing spirit
 recipes.remove(<minecraft:ender_chest>);
