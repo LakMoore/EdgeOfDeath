@@ -108,28 +108,6 @@ recipes.addShaped(<TConstruct:CraftingSlab:5>, [
 ]);
 recipes.addShapeless(<TConstruct:CraftingSlab:5>, [<ore:blockToolForge>]);
 
-#nice coal oreDict
-<ore:allCoal>.add(<minecraft:coal>);
-<ore:allCoal>.add(<minecraft:coal:1>);
-<ore:allCoal>.add(<MineFactoryReloaded:sugarcharcoal>);
-
-#stone torches  :  2 coal/torch => 1.5 coal/torch => 0.5 coal/torch with rubber
-recipes.addShaped(<TConstruct:decoration.stonetorch>, [
-    [<ore:allCoal>, <ore:allCoal>], 
-    [<ore:rodStone>, <ore:rodStone>],
-    [<ore:rodStone>, <ore:rodStone>]
-]);
-recipes.addShaped(<TConstruct:decoration.stonetorch> * 2, [
-    [<ore:allCoal>, <ore:allCoal>, <ore:allCoal>], 
-    [<ore:rodStone>, <ore:rodStone>, <ore:rodStone>],
-    [<ore:rodStone>, <ore:rodStone>, <ore:rodStone>]
-]);
-recipes.addShaped(<TConstruct:decoration.stonetorch> * 2, [
-    [<ore:allCoal>, <ore:itemRawRubber>], 
-    [<ore:stoneRod>, <ore:stoneRod>],
-    [<ore:stoneRod>, <ore:stoneRod>]
-]);
-
 #Craft a pattern from any kind of sticks.
 recipes.removeShaped(<TConstruct:blankPattern>);
 recipes.addShaped(<TConstruct:blankPattern>, [
