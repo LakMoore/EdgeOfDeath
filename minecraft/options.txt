@@ -100,6 +100,8 @@ key_Mount Manager:0
 key_Familiar Manager:0
 key_Minion Manager:0
 key_Minion Selection:19
+key_PM_ParticleMode:37
+key_PM_ShieldToggle:38
 key_Baubles Inventory:48
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79

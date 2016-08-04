@@ -66,7 +66,7 @@ recipes.addShaped(<minecraft:dropper>, [[<ore:cobblestone>, <ore:cobblestone>, <
 recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:cobblestone>, <TConstruct:toughRod:2>, <ore:cobblestone>], [<ore:cobblestone>, redstone, <ore:cobblestone>]]);
 recipes.addShaped(<minecraft:clock>, [[null, <TConstruct:materials:14>, null], [<TConstruct:materials:14>, redstone, <TConstruct:materials:14>], [null, <TConstruct:materials:14>, null]]);
 recipes.addShaped(<minecraft:repeater>, [[<minecraft:redstone_torch:*>, redstone], [<minecraft:redstone_torch:*>, <ore:stone>], [<ore:stone>, <ore:stone>]]);
-recipes.addShaped(<minecraft:lever>,[[mcStick,<ore:cobblestone>,redstone]]);
+recipes.addShaped(<minecraft:lever>,[[<ore:stickWood>,<ore:cobblestone>,redstone]]);
 recipes.addShapeless(<minecraft:stone_button>*4,[<ore:stone>,redstone]);
 recipes.addShapeless(<minecraft:wooden_button>*4,[<ore:plankWood>,redstone]);
 recipes.addShaped(<minecraft:iron_door>,[[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotIron>,redstone,<ore:ingotIron>]]);
