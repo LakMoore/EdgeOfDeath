@@ -3,8 +3,8 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:8
-guiScale:0
+renderDistance:16
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
@@ -12,7 +12,7 @@ advancedOpengl:true
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:[]
@@ -118,14 +118,6 @@ key_Add Custom Config:36
 key_Enviromine Menu:50
 key_key.categories.naming:49
 key_invtweaks.key.sort:39
-key_key.mw_open_gui:50
-key_key.mw_new_marker:210
-key_key.mw_next_map_mode:49
-key_key.mw_next_marker_group:51
-key_key.mw_teleport:52
-key_key.mw_zoom_in:201
-key_key.mw_zoom_out:209
-key_key.mw_underground_mode:22
 key_key.erebus.glide:34
 key_key.erebus.poweredGlide:33
 key_key.erebus.beetleRam:19
