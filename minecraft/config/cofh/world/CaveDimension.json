@@ -1,0 +1,247 @@
+{
+  "caveDirt": {
+    "template": "uniform",
+    "block": "dirt",
+    "material": "minecraft:stone",
+    "clusterSize": 32,
+    "numClusters": 40,
+    "minHeight": 0,
+    "maxHeight": 255,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveGravel": {
+    "template": "uniform",
+    "block": [
+      {"name": "gravel", "weight": "150"},
+      {"name": "TConstruct:GravelOre", "metadata": 0, "weight": 2},
+      {"name": "TConstruct:GravelOre", "metadata": 1, "weight": 2},
+      {"name": "TConstruct:GravelOre", "metadata": 2, "weight": 2},
+      {"name": "TConstruct:GravelOre", "metadata": 3, "weight": 2},
+      {"name": "TConstruct:GravelOre", "metadata": 4, "weight": 2}
+    ],
+    "material": "stone",
+    "clusterSize": 32,
+    "numClusters": 20,
+    "minHeight": 0,
+    "maxHeight": 255,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveCoal": {
+    "template": "uniform",
+    "block": "coal_ore",
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 40,
+    "minHeight": 0,
+    "maxHeight": 255,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveIron": {
+    "template": "uniform",
+    "block": "iron_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 32,
+    "minHeight": 20,
+    "maxHeight": 210,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveGold": {
+    "template": "uniform",
+    "block": "gold_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "minHeight": 5,
+    "maxHeight": 24,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveRedstone": {
+    "template": "uniform",
+    "block": "redstone_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 7,
+    "numClusters": 16,
+    "minHeight": 40,
+    "maxHeight": 170,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveDiamond": {
+    "template": "uniform",
+    "block": "diamond_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 3,
+    "numClusters": 1,
+    "minHeight": 220,
+    "maxHeight": 235,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveEmerald": {
+    "template": "normal",
+    "block": "emerald_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 1,
+    "numClusters": 1,
+    "meanHeight": 240,
+    "maxVariance": 16,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveLapis": {
+    "template": "normal",
+    "block": "lapis_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 200,
+    "maxVariance": 32,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveChrysocolla": {
+    "template": "uniform",
+    "block": "gemsplus:tile.oreChrysocolla",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveMalachite": {
+    "template": "uniform",
+    "block": "gemsplus:tile.oreMalachite",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveSugilite": {
+    "template": "uniform",
+    "block": "gemsplus:tile.oreSugilite",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveLava": {
+    "template": "uniform",
+    "block": "minecraft:lava",
+    "material": "minecraft:stone",
+    "clusterSize": 1,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "caveGas": {
+    "template": {
+      "type": "uniform",
+      "generator": "geode",
+      "hollow": "true",
+      "filler": [
+        {"name": "gases:gas_greenGas", "metadata": 15, "weight":80},
+        {"name": "gases:gas_redGas", "metadata": 15, "weight":80},
+        {"name": "gases:gas_corrosiveGas", "metadata": 15, "weight":80},
+        {"name": "gases:gas_nitrousGas", "metadata": 15, "weight":80},
+        {"name": "gases:gas_acidVapour", "metadata": 15, "weight":80},
+        {"name": "gases:gas_chlorineGas", "metadata": 15, "weight":80},
+        {"name": "gases:gas_lightSensitive", "metadata": 15, "weight":80},
+        {"name": "gases:gas_helium", "metadata": 15, "weight":80},
+        {"name": "gases:gas_finine", "metadata": 15, "weight":80}
+      ]
+    },
+    "material": "minecraft:stone",
+    "clusterSize": 16,
+    "numClusters": 20,
+    "minHeight": 3,
+    "maxHeight": 250,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  }
+}

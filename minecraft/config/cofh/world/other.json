@@ -1,0 +1,19 @@
+{
+  "FluidEnder": {
+      "template": {"type": "surface", "generator": "cluster"},
+      "block": "ThermalFoundation:FluidEnder",
+      "material": "minecraft:grass",
+      "followTerrain": "true",
+      "numClusters": 5,
+      "clusterSize": 1,
+      "retrogen": "false",
+      "biomeRestriction": "none",
+      "biomes": [
+            {"type": "name", "entry": "Mystic Grove"},
+      ],
+      "dimensionRestriction": "whitelist",
+      "dimensions": [
+          0
+      ]
+  }
+}

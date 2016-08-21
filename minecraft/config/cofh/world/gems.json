@@ -1,0 +1,194 @@
+{
+  "ChrysocollaOver": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreChrysocolla",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 16,
+    "maxVariance": 10,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37, 0
+    ]
+  },
+  "MalachiteOver": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreMalachite",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 30,
+    "maxVariance": 12,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37, 0
+    ]
+  },
+  "SugiliteOver": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreSugilite",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 44,
+    "maxVariance": 12,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37, 0
+    ]
+  },
+  "Onyx": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreOnyx",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 42,
+    "maxVariance": 10,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37
+    ]
+  },
+  "Phoenixite": {
+    "template": "normal",
+    "block": "gemsplus:tile.orePhoenixite",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 16,
+    "maxVariance": 16,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37
+    ]
+  },
+  "Agate": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreAgate",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 16,
+    "maxVariance": 16,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37
+    ]
+  },
+  "Citrine": {
+    "template": "uniform",
+    "block": "gemsplus:tile.oreCitrine",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "Garnet": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreGarnet",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 16,
+    "maxVariance": 16,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37
+    ]
+  },
+  "Jasper": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreJasper",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 16,
+    "maxVariance": 16,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37
+    ]
+  },
+  "Spinel": {
+    "template": "normal",
+    "block": "gemsplus:tile.oreSpinel",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 16,
+    "maxVariance": 16,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -37
+    ]
+  },
+  "Topaz": {
+    "template": "uniform",
+    "block": "gemsplus:tile.oreTopaz",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "Tourmaline": {
+    "template": "uniform",
+    "block": "gemsplus:tile.oreTourmaline",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 10,
+    "minHeight": 3,
+    "maxHeight": 125,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  }
+}

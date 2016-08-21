@@ -44,6 +44,7 @@ recipes.addShapeless(<Natura:planks:9>*2,[<Natura:Rare Tree:3>]);  #Tigerwood
 recipes.addShapeless(<Natura:planks:10>*2,[<Natura:willow>]);      #Willow
 recipes.addShapeless(<Natura:planks:11>*2,[<Natura:Dark Tree>]);   #Dark Wood
 recipes.addShapeless(<Natura:planks:12>*2,[<Natura:Dark Tree:1>]); #Fusewood
+recipes.addShapeless(<minecraft:planks:0>,[<ore:woodRubber>]);     #Rubber Tree
 
 #Add Bamboo Thatching back in
 recipes.addShaped(<BiomesOPlenty:planks:10>,[[<BiomesOPlenty:bamboo>,<BiomesOPlenty:bamboo>],[<BiomesOPlenty:bamboo>,<BiomesOPlenty:bamboo>]]);
@@ -74,12 +75,13 @@ val allSaws = [
 	<ProjRed|Exploration:projectred.exploration.sawsapphire>
 ] as IItemStack[];
 
-#now we can use saws to get a decent amounts of planks
+#now we can use saws to get decent amounts of planks
 for i, saw in allSaws {
 	var thisQty = i - 1;
 	if thisQty < 3 {
 	 thisQty = 3;
 	}
+	var rQty = (thisQty / 2) + 1;
 	var thisSaw = saw.anyDamage().transformDamage(thisQty);
     
 	recipes.addShaped(<minecraft:planks:0> * thisQty,[[thisSaw,<minecraft:log:0>]]);
@@ -115,4 +117,5 @@ for i, saw in allSaws {
 	recipes.addShaped(<Natura:planks:10> * thisQty,[[thisSaw,<Natura:willow>]]);      #Willow
 	recipes.addShaped(<Natura:planks:11> * thisQty,[[thisSaw,<Natura:Dark Tree>]]);   #Dark Wood
 	recipes.addShaped(<Natura:planks:12> * thisQty,[[thisSaw,<Natura:Dark Tree:1>]]); #Fusewood
+	recipes.addShaped(<minecraft:planks:0> * rQty,[[thisSaw,<ore:woodRubber>]]); #Rubber Tree
 }
