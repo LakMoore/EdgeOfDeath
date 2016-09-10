@@ -34,11 +34,12 @@ mods.thermalexpansion.Smelter.removeRecipe(<ore:dustRedstone>, <ore:ingotIron>);
 mods.thermalexpansion.Furnace.removeRecipe(<ProjRed|Core:projectred.core.part:40>);
 
 #To-Do: Find a use for Red Iron Compound
-#Change recipe for Red Iron Compound
+#Change recipe for Red Iron Compound  
+#If gases are available us <gases:ironIngotRusted>
 recipes.remove(<ProjRed|Core:projectred.core.part:40>);
 recipes.addShaped(<ProjRed|Core:projectred.core.part:40>, [
 	[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], 
-	[<ore:dustRedstone>, <gases:ironIngotRusted>, <ore:dustRedstone>], 
+	[<ore:dustRedstone>, <ProjRed|Core:projectred.core.part:10>, <ore:dustRedstone>], 
 	[<ore:dustRedstone>, <ore:dustPyrotheum>, <ore:dustRedstone>]
 ]);
 
