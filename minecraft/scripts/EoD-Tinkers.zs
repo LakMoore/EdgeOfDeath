@@ -115,6 +115,23 @@ recipes.addShaped(<TConstruct:blankPattern>, [
     [<ore:stickWood>, <ore:stickWood>]
 ]);
 
+#Jewelled Apple should be a bit harder
+recipes.remove(<TConstruct:diamondApple>);
+recipes.addShaped(<TConstruct:diamondApple>, [
+	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+	[<ore:gemDiamond>, <ore:cropApple>, <ore:gemDiamond>],
+	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
+]);
+
+#Can downgrade a green heart to a yellow one
+recipes.addShapeless(<TConstruct:heartCanister:3>, [<TConstruct:heartCanister:5>]);
+
+#Can craft a green heart canister
+recipes.addShaped(<TConstruct:heartCanister:6>, [
+	[<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>],
+	[<magicalcrops:magicalcrops_EmeraldApple>, <AWWayofTime:bloodMagicBaseItems:1>]
+]);
+
 /* 
 TO CHECK
 recipes.addShaped(<TConstruct:Armor.DryingRack>, [

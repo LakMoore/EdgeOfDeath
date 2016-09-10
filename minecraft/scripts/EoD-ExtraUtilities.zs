@@ -115,7 +115,7 @@ recipes.addShaped(<ExtraUtilities:generator:6>, [
 #Change solar generator to require astral silver, Desichalkos ingot, leadstone frame, steel furnace, and red alloy.
 recipes.remove(<ExtraUtilities:generator:7>);
 recipes.addShaped(<ExtraUtilities:generator:7>, [
-    [<ore:blockQuartz>, <ProjRed|Expansion:projectred.expansion.solar_panel>, <ore:blockQuartz>], 
+    [<ore:blockQuartz>, <minecraft:daylight_detector>, <ore:blockQuartz>], 
     [<ore:gearIron>, <ThermalExpansion:Frame:4>, <ore:gearIron>], 
     [<ore:ingotRedAlloy>, <Metallurgy:forge>, <ore:ingotRedAlloy>]
 ]);

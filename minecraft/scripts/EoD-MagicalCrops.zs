@@ -1,3 +1,5 @@
+import mods.nei.NEI;
+
 var e1 = <magicalcrops:magicalcrops_1MinicioEssence>;
 var b1 = <magicalcrops:essence_storage>;
 var o1 = <ore:dustMithril>;
@@ -99,3 +101,9 @@ recipes.addShaped(e5, [
 	[o4,e4,o4]
 ]);
 recipes.addShapeless(e5 * 9, [b5]);
+
+#These two apples are a bit OP!
+recipes.remove(<magicalcrops:magicalcrops_UltimateDiamondApple>);
+NEI.hide(<magicalcrops:magicalcrops_UltimateDiamondApple>);
+recipes.remove(<magicalcrops:magicalcrops_UltimateEmeraldApple>);
+NEI.hide(<magicalcrops:magicalcrops_UltimateEmeraldApple>);

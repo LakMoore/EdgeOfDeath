@@ -3,8 +3,8 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:8
-guiScale:0
+renderDistance:12
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
@@ -12,7 +12,7 @@ advancedOpengl:true
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:[]
@@ -85,11 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_key.binder:40
-key_key.adventurersamulets.descBelt:34
-key_key.adventurersamulets.descPendant:35
 key_key.personalBackpack:44
-key_keys.baubleshud.config:73
 key_key.openCompendium:25
 key_Mount Ability:33
 key_Mount Inventory:0
@@ -102,30 +98,21 @@ key_Minion Manager:0
 key_Minion Selection:19
 key_PM_ParticleMode:37
 key_PM_ShieldToggle:38
-key_Baubles Inventory:48
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
 key_key.tarmor:24
-key_key.tgoggles:34
+key_key.tgoggles:35
 key_key.tbelt:48
-key_key.tzoom:29
+key_key.tzoom:45
 key_Dynamic Lights toggle:38
 key_Reload Configs:37
 key_Add Custom Config:36
 key_Enviromine Menu:50
 key_key.categories.naming:49
 key_invtweaks.key.sort:39
-key_key.mw_open_gui:50
-key_key.mw_new_marker:210
-key_key.mw_next_map_mode:49
-key_key.mw_next_marker_group:51
-key_key.mw_teleport:52
-key_key.mw_zoom_in:201
-key_key.mw_zoom_out:209
-key_key.mw_underground_mode:22
 key_key.erebus.glide:34
 key_key.erebus.poweredGlide:33
 key_key.erebus.beetleRam:19
@@ -133,10 +120,9 @@ key_key.erebus.beetleMine:46
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_key.control:29
-key_enchiridion.key.wiki:35
 key_BetterFps:88
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.5633803
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

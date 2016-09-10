@@ -197,7 +197,7 @@ recipes.addShaped(<MineFactoryReloaded:machine.0:8>, [
 recipes.remove(<MineFactoryReloaded:machine.0:9>);
 recipes.addShaped(<MineFactoryReloaded:machine.0:9>, [
     [<ore:sheetPlastic>, <minecraft:cauldron>, <ore:sheetPlastic>], 
-    [<ProjRed|Expansion:projectred.expansion.machine1>, <ThermalExpansion:Frame>, <ProjRed|Expansion:projectred.expansion.machine1>], 
+    [null, <ThermalExpansion:Frame>, null], 
     [<ExtraUtilities:heatingElement>, <ThermalExpansion:material:1>, <ExtraUtilities:heatingElement>]
 ]);
 
