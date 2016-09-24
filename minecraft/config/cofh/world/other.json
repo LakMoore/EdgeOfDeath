@@ -7,7 +7,7 @@
       "numClusters": 5,
       "clusterSize": 1,
       "retrogen": "false",
-      "biomeRestriction": "none",
+      "biomeRestriction": "whitelist",
       "biomes": [
             {"type": "name", "entry": "Mystic Grove"},
       ],
