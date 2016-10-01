@@ -1,4 +1,4 @@
-# EdgeOfDeath
+# EdgeOfDeath v0.0.6
 Minecraft Hardcore Mod Pack
 
 Setup / Installation<br/>
