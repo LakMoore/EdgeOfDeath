@@ -85,7 +85,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_Zoom:29
 key_key.personalBackpack:44
 key_key.openCompendium:25
 key_Mount Ability:33
@@ -108,6 +107,7 @@ key_key.tarmor:24
 key_key.tgoggles:35
 key_key.tbelt:48
 key_key.tzoom:45
+key_Dynamic Lights toggle:38
 key_Reload Configs:37
 key_Add Custom Config:36
 key_Enviromine Menu:50
