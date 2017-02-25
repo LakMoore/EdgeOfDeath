@@ -1,0 +1,24 @@
+apply from: 'modpack.gradle'
+
+ext.archivesBaseName = 'EdgeOfDeath'
+version = '0.0.5'
+ext.modPack = [
+	name: 'EdgeOfDeath',
+	author: 'LakMoore',
+	description: 'Hardcore Modpack',
+	mcVersion: '1.7.10',
+	forgeVersion: 'forge-10.13.4.1558'
+]
+
+modpackFiles += fileTree(projectDir) {
+	include 'scripts/**/*.zs'
+	include 'config/**'
+}
+
+repositories.maven { name 'squeek502'; url 'http://www.ryanliptak.com/maven/' }
+addMod 'applecore:AppleCore:1.7.10-1.3.2'
+
+// filename, fileID, projectID
+// projectID is optional, and is only used when generating the Curse-specific manifest.json
+addCurseMod 'WailaHarvestability-mc1.8.x-1.1.6.jar', '2270924', '79287'
+addCurseMod 'Waila-1.6.0-B3_1.8.8.jar', '2270821', '73488'
